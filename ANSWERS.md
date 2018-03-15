@@ -1,6 +1,8 @@
 # Q0: Why is this error being thrown?
+There is no Pokemon model
 
 # Q1: How are the random Pokemon appearing? What is the common factor between all the possible Pokemon that appear? *
+A random pokemon is being chosen from the pokemon that were added from the seed. None of them have trainers
 
 # Question 2a: What does the following line do "<%= button_to "Throw a Pokeball!", capture_path(id: @pokemon), :class => "button medium", :method => :patch %>"? Be specific about what "capture_path(id: @pokemon)" is doing. If you're having trouble, look at the Help section in the README.
 
