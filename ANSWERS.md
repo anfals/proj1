@@ -5,8 +5,10 @@ There is no Pokemon model
 A random pokemon is being chosen from the pokemon that were added from the seed. None of them have trainers
 
 # Question 2a: What does the following line do "<%= button_to "Throw a Pokeball!", capture_path(id: @pokemon), :class => "button medium", :method => :patch %>"? Be specific about what "capture_path(id: @pokemon)" is doing. If you're having trouble, look at the Help section in the README.
+It is creating a button, which when you click, makes a patch request to the capture_path we defined, with its sole param being the id of the current pokemon
 
 # Question 3: What would you name your own Pokemon?
+CS170
 
 # Question 4: What did you pass into the redirect_to? If it is a path, what did that path need? If it is not a path, why is it okay not to have a path here?
 
