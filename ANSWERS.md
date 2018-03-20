@@ -11,8 +11,10 @@ It is creating a button, which when you click, makes a patch request to the capt
 CS170
 
 # Question 4: What did you pass into the redirect_to? If it is a path, what did that path need? If it is not a path, why is it okay not to have a path here?
+The id of the trainer who owns this pokemon; it was the trainer_path
 
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
+The validation put errors into the errors array. This line flashes the errors as comma separated string
 
 # Give us feedback on the project and decal below!
 
